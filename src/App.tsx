@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 interface Product {
   id: string;
@@ -68,6 +69,7 @@ export default function App() {
 
   return (
     <div style={{ padding: '16px', backgroundColor: '#090a0f', color: '#f1f5f9', minHeight: '100vh', fontFamily: 'sans-serif', boxSizing: 'border-box' }}>
+      <SpeedInsights />
       
       {/* Mobile Top Header */}
       <div style={{ marginBottom: '16px', textAlign: 'center' }}>
