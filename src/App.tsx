@@ -23,7 +23,7 @@ export default function App() {
     "sales": 142,
     "revenue": 4118.0,
     "desc": "Curated master prompts for dark, gothic, and biomechanical AI renders.",
-    "paymentUrl": "https://buy.stripe.com/eVq5kD6fO39d7888pR18c3V"
+    "paymentUrl": "https://buy.stripe.com/9B6dR95bK39dboo21t18c47"
   },
   {
     "id": "2",
@@ -34,7 +34,7 @@ export default function App() {
     "sales": 98,
     "revenue": 1959.02,
     "desc": "High-res line art vector stencils ready for stencil thermal printers.",
-    "paymentUrl": "https://buy.stripe.com/00w28r33CdNR3VW21t18c3W"
+    "paymentUrl": "https://buy.stripe.com/bJe14n1Zy5hl1NO7lN18d00"
   },
   {
     "id": "3",
@@ -45,7 +45,7 @@ export default function App() {
     "sales": 54,
     "revenue": 2646.0,
     "desc": "Plug-and-play CLI scripts for mobile automation, APIs, and Webhooks.",
-    "paymentUrl": "https://buy.stripe.com/00wfZhfQoeRVcsseOf18c3X"
+    "paymentUrl": "https://buy.stripe.com/28E8wPgUs6lp3VWgWn18d01"
   },
   {
     "id": "4",
@@ -56,7 +56,7 @@ export default function App() {
     "sales": 76,
     "revenue": 1139.24,
     "desc": "Clean, scalable vector line art designed for precision tattoos and merch.",
-    "paymentUrl": "https://buy.stripe.com/8x2fZh0Vu7pt1NO0Xp18c3Y"
+    "paymentUrl": "https://buy.stripe.com/5kQ6oHeMk5hlgII0Xp18d02"
   },
   {
     "id": "5",
@@ -67,7 +67,7 @@ export default function App() {
     "sales": 29,
     "revenue": 2871.0,
     "desc": "Low-latency asynchronous DEX transaction monitor & trailing stop script.",
-    "paymentUrl": "https://buy.stripe.com/6oU8wPeMkaBF8cc35x18c3Z"
+    "paymentUrl": "https://buy.stripe.com/eVq00j9s07ptakk21t18d03"
   },
   {
     "id": "6",
@@ -78,7 +78,7 @@ export default function App() {
     "sales": 61,
     "revenue": 1524.39,
     "desc": "Bespoke dark bioluminescent UI components, vectors, and background shaders.",
-    "paymentUrl": "https://buy.stripe.com/eVqeVdfQo6lpcssbC318c40"
+    "paymentUrl": "https://buy.stripe.com/cNidR90VudNR7887lN18d04"
   },
   {
     "id": "7",
@@ -89,7 +89,7 @@ export default function App() {
     "sales": 43,
     "revenue": 2537.0,
     "desc": "Automated pipeline for property data parsing and multi-channel messaging.",
-    "paymentUrl": "https://buy.stripe.com/9B65kDbA8bFJ3VW21t18c41"
+    "paymentUrl": "https://buy.stripe.com/00w5kD6fO115dww49B18d05"
   },
   {
     "id": "8",
@@ -100,7 +100,7 @@ export default function App() {
     "sales": 37,
     "revenue": 1294.63,
     "desc": "Royalty-free dark trap drums, heavy distorted riffs, and aggressive synth lines.",
-    "paymentUrl": "https://buy.stripe.com/14A14n7jS115gIIbC318c42"
+    "paymentUrl": "https://buy.stripe.com/9B6eVddIgh038cc21t18d06"
   },
   {
     "id": "9",
@@ -111,7 +111,7 @@ export default function App() {
     "sales": 51,
     "revenue": 968.49,
     "desc": "Intricate biomechanical line-art vectors and stencil overlays.",
-    "paymentUrl": "https://buy.stripe.com/5kQ5kD8nW7pt7886hJ18c43"
+    "paymentUrl": "https://buy.stripe.com/cNi5kD8nW1157886hJ18d07"
   },
   {
     "id": "10",
@@ -122,7 +122,7 @@ export default function App() {
     "sales": 32,
     "revenue": 1248.0,
     "desc": "Full Python Telegram bot backend with payment commands and webhooks.",
-    "paymentUrl": "https://buy.stripe.com/7sY9AT7jSaBF6446hJ18c44"
+    "paymentUrl": "https://buy.stripe.com/28E4gz5bK5hleAA35x18d08"
   },
   {
     "id": "11",
@@ -133,7 +133,7 @@ export default function App() {
     "sales": 89,
     "revenue": 1156.11,
     "desc": "Compact gothic flash tattoo vector pack optimized for quick stencil transfer.",
-    "paymentUrl": "https://buy.stripe.com/5kQfZh0Vu9xBcssgWn18c45"
+    "paymentUrl": "https://buy.stripe.com/aFabJ1gUsh030JK9tV18d09"
   },
   {
     "id": "12",
@@ -144,7 +144,7 @@ export default function App() {
     "sales": 27,
     "revenue": 1215.0,
     "desc": "Multi-threaded async web scraping framework for market & lead research.",
-    "paymentUrl": "https://buy.stripe.com/14A28r7jS39dcssfSj18c46"
+    "paymentUrl": "https://buy.stripe.com/cNi6oHgUs1158cc35x18d0a"
   }
 ];
   const categories = ['All', 'AI Prompts', 'Tattoo Vectors', 'Software', 'Digital Design', 'Audio & Beats'];
