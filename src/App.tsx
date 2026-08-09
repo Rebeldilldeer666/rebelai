@@ -20,7 +20,7 @@ export default function App() {
   ]);
 
   const handleBuy = (url: string) => {
-    window.location.href = url;
+    window.open(url, '_self');
   };
 
   const totalRevenue = products.reduce((sum, item) => sum + item.revenue, 0);
