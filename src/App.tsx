@@ -13,47 +13,14 @@ interface Product {
 
 export default function App() {
   const [products] = useState<Product[]>([
-    { 
-      id: '1', 
-      title: 'ObsidianInk Dark Art AI Prompt Vault v1', 
-      category: 'AI Prompts', 
-      price: '$29.00', 
-      sales: 64, 
-      revenue: 1856.00,
-      paymentUrl: 'https://buy.stripe.com/test_1' 
-    },
-    { 
-      id: '2', 
-      title: 'Dark Gothic & Steampunk Tattoo Stencil Collection', 
-      category: 'Digital Design', 
-      price: '$19.99', 
-      sales: 48, 
-      revenue: 959.52,
-      paymentUrl: 'https://buy.stripe.com/test_2' 
-    },
-    { 
-      id: '3', 
-      title: 'Termux Python Automation & Bot Scripts', 
-      category: 'Software', 
-      price: '$49.00', 
-      sales: 18, 
-      revenue: 882.00,
-      paymentUrl: 'https://buy.stripe.com/test_3' 
-    },
-    { 
-      id: '4', 
-      title: 'Minimalist Snake & Geometric Line Art Pack', 
-      category: 'Digital Design', 
-      price: '$14.99', 
-      sales: 22, 
-      revenue: 329.78,
-      paymentUrl: 'https://buy.stripe.com/test_4' 
-    }
+    { id: '1', title: 'ObsidianInk Dark Art AI Prompt Vault v1', category: 'AI Prompts', price: '$29.00', sales: 64, revenue: 1856.0, paymentUrl: 'https://buy.stripe.com/3cI3cvfQo8txcss8pR18c19' },
+    { id: '2', title: 'Dark Gothic & Steampunk Tattoo Stencil Collection', category: 'Digital Design', price: '$19.99', sales: 48, revenue: 959.52, paymentUrl: 'https://buy.stripe.com/8x26oH9s0aBFakk8pR18c1a' },
+    { id: '3', title: 'Termux Python Automation & Bot Scripts', category: 'Software', price: '$49.00', sales: 18, revenue: 882.0, paymentUrl: 'https://buy.stripe.com/14A00jbA86lpakkfSj18c1b' },
+    { id: '4', title: 'Minimalist Snake & Geometric Line Art Pack', category: 'Digital Design', price: '$14.99', sales: 22, revenue: 329.78, paymentUrl: 'https://buy.stripe.com/cNifZhcEc115644dKb18c1c' }
   ]);
 
-  const handleBuy = (product: Product) => {
-    // Direct checkout route
-    window.location.href = product.paymentUrl;
+  const handleBuy = (url: string) => {
+    window.location.href = url;
   };
 
   const totalRevenue = products.reduce((sum, item) => sum + item.revenue, 0);
@@ -80,10 +47,10 @@ export default function App() {
       <div style={{ backgroundColor: '#0f111a', border: '1px solid #1e293b', padding: '16px', borderRadius: '8px' }}>
         <h3 style={{ margin: '0 0 12px 0', fontSize: '1rem', color: '#38bdf8' }}>Storefront Assets (Tap to Purchase)</h3>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-          {products.map((p) => (
-            <div key={p.id} onClick={() => handleBuy(p)} style={{ backgroundColor: '#181b26', padding: '12px', borderRadius: '6px', border: '1px solid #0284c7', cursor: 'pointer' }}>
-              <div style={{ fontWeight: 'bold', fontSize: '0.9rem', color: '#fff', marginBottom: '4px' }}>{p.title}</div>
-              <div style={{ fontSize: '0.8rem', color: '#38bdf8' }}>{p.category} • {p.price} • {p.sales} Sold — <span style={{ textDecoration: 'underline' }}>Buy Now ⚡</span></div>
+          {products.map((item) => (
+            <div key={item.id} onClick={() => handleBuy(item.paymentUrl)} style={{ backgroundColor: '#181b26', padding: '12px', borderRadius: '6px', border: '1px solid #0284c7', cursor: 'pointer' }}>
+              <div style={{ fontWeight: 'bold', fontSize: '0.9rem', color: '#fff', marginBottom: '4px' }}>{item.title}</div>
+              <div style={{ fontSize: '0.8rem', color: '#38bdf8' }}>{item.category} • {item.price} • {item.sales} Sold — <span style={{ textDecoration: 'underline' }}>Buy Now ⚡</span></div>
             </div>
           ))}
         </div>
