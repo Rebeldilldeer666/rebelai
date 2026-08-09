@@ -21,8 +21,17 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
+        cache: 'npm'
 
-    - name: Build
-      run: |
-        npm install
-        npx webpack
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run Build
+      run: npm run build --if-present
+
+    - name: Run Datadog Synthetic Tests
+      uses: DataDog/synthetics-ci-github-action@v0.18.0
+      continue-on-error: ${{ matrix.node-version == '22.x' }}
+      with:
+        api_key: ${{ secrets.DD_API_KEY }}
+        app_key: ${{ secrets.DD_APP_KEY }}
