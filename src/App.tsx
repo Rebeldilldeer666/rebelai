@@ -21,10 +21,10 @@ export default function App() {
     "category": "AI Prompts",
     "price": "$29.00",
     "amount": 2900,
-    "sales": 84,
-    "revenue": 2436.0,
+    "sales": 142,
+    "revenue": 4118.0,
     "desc": "Curated master prompts for dark, gothic, and biomechanical AI renders.",
-    "paymentUrl": "https://buy.stripe.com/eVq6oH7jSeRV788cG718c1h"
+    "paymentUrl": "https://buy.stripe.com/28EeVdcEc6lpcss0Xp18c1p"
   },
   {
     "id": "2",
@@ -32,10 +32,10 @@ export default function App() {
     "category": "Tattoo Vectors",
     "price": "$19.99",
     "amount": 1999,
-    "sales": 62,
-    "revenue": 1239.38,
+    "sales": 98,
+    "revenue": 1959.02,
     "desc": "High-res line art vector stencils ready for stencil thermal printers.",
-    "paymentUrl": "https://buy.stripe.com/14AfZh0Vuh03fEE8pR18c1i"
+    "paymentUrl": "https://buy.stripe.com/3cI3cv1Zy8tx8ccfSj18c1q"
   },
   {
     "id": "3",
@@ -43,10 +43,10 @@ export default function App() {
     "category": "Software",
     "price": "$49.00",
     "amount": 4900,
-    "sales": 31,
-    "revenue": 1519.0,
+    "sales": 54,
+    "revenue": 2646.0,
     "desc": "Plug-and-play CLI scripts for mobile automation, APIs, and Webhooks.",
-    "paymentUrl": "https://buy.stripe.com/7sY6oH47Gh03boo8pR18c1j"
+    "paymentUrl": "https://buy.stripe.com/eVq7sL33Ch03dww21t18c1r"
   },
   {
     "id": "4",
@@ -54,10 +54,10 @@ export default function App() {
     "category": "Tattoo Vectors",
     "price": "$14.99",
     "amount": 1499,
-    "sales": 45,
-    "revenue": 674.55,
+    "sales": 76,
+    "revenue": 1139.24,
     "desc": "Clean, scalable vector line art designed for precision tattoos and merch.",
-    "paymentUrl": "https://buy.stripe.com/00waEXfQofVZcss7lN18c1k"
+    "paymentUrl": "https://buy.stripe.com/8x228r6fO2591NO49B18c1s"
   },
   {
     "id": "5",
@@ -65,10 +65,10 @@ export default function App() {
     "category": "Software",
     "price": "$99.00",
     "amount": 9900,
-    "sales": 14,
-    "revenue": 1386.0,
+    "sales": 29,
+    "revenue": 2871.0,
     "desc": "Low-latency asynchronous DEX transaction monitor & trailing stop script.",
-    "paymentUrl": "https://buy.stripe.com/9B614naw4eRVfEEfSj18c1l"
+    "paymentUrl": "https://buy.stripe.com/00wbJ11Zy9xB0JKfSj18c1t"
   },
   {
     "id": "6",
@@ -76,10 +76,10 @@ export default function App() {
     "category": "Digital Design",
     "price": "$24.99",
     "amount": 2499,
-    "sales": 38,
-    "revenue": 949.62,
+    "sales": 61,
+    "revenue": 1524.39,
     "desc": "Bespoke dark bioluminescent UI components, vectors, and background shaders.",
-    "paymentUrl": "https://buy.stripe.com/14A7sLcEc39d500fSj18c1m"
+    "paymentUrl": "https://buy.stripe.com/00w14n7jSaBF8ccaxZ18c1u"
   },
   {
     "id": "7",
@@ -87,10 +87,10 @@ export default function App() {
     "category": "Software",
     "price": "$59.00",
     "amount": 5900,
-    "sales": 27,
-    "revenue": 1593.0,
+    "sales": 43,
+    "revenue": 2537.0,
     "desc": "Automated pipeline for property data parsing and multi-channel messaging.",
-    "paymentUrl": "https://buy.stripe.com/cNi3cveMkfVZ8cceOf18c1n"
+    "paymentUrl": "https://buy.stripe.com/3cI9AT6fO2597880Xp18c1v"
   },
   {
     "id": "8",
@@ -98,10 +98,54 @@ export default function App() {
     "category": "Audio & Beats",
     "price": "$34.99",
     "amount": 3499,
-    "sales": 19,
-    "revenue": 664.81,
+    "sales": 37,
+    "revenue": 1294.63,
     "desc": "Royalty-free dark trap drums, heavy distorted riffs, and aggressive synth lines.",
-    "paymentUrl": "https://buy.stripe.com/eVqeVd33CfVZcss6hJ18c1o"
+    "paymentUrl": "https://buy.stripe.com/14A3cv8nW9xB8cceOf18c1w"
+  },
+  {
+    "id": "9",
+    "title": "Biomechanical & Centipede Vector Line Art Pack",
+    "category": "Tattoo Vectors",
+    "price": "$18.99",
+    "amount": 1899,
+    "sales": 51,
+    "revenue": 968.49,
+    "desc": "Intricate biomechanical line-art vectors and stencil overlays.",
+    "paymentUrl": "https://buy.stripe.com/7sY5kD5bK259eAAbC318c1x"
+  },
+  {
+    "id": "10",
+    "title": "Telegram Bot Automation Script Suite",
+    "category": "Software",
+    "price": "$39.00",
+    "amount": 3900,
+    "sales": 32,
+    "revenue": 1248.0,
+    "desc": "Full Python Telegram bot backend with payment commands and webhooks.",
+    "paymentUrl": "https://buy.stripe.com/00w4gz47GbFJ8cccG718c1y"
+  },
+  {
+    "id": "11",
+    "title": "Dark Gothic Micro-Flash Tattoo Bundle",
+    "category": "Tattoo Vectors",
+    "price": "$12.99",
+    "amount": 1299,
+    "sales": 89,
+    "revenue": 1156.11,
+    "desc": "Compact gothic flash tattoo vector pack optimized for quick stencil transfer.",
+    "paymentUrl": "https://buy.stripe.com/8x2dR9bA87pt2RS0Xp18c1z"
+  },
+  {
+    "id": "12",
+    "title": "Autonomous Python Web Scraper Engine",
+    "category": "Software",
+    "price": "$45.00",
+    "amount": 4500,
+    "sales": 27,
+    "revenue": 1215.0,
+    "desc": "Multi-threaded async web scraping framework for market & lead research.",
+    "paymentUrl": "https://buy.stripe.com/7sY8wPaw4aBF788bC318c1A"
   }
 ];
 
