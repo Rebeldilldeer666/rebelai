@@ -1,0 +1,197 @@
+{
+    "executed_at": "2026-08-15T01:35:11.221649",
+    "summary": {
+        "real_estate_leads_processed": 4,
+        "affiliate_campaigns_active": 4,
+        "digital_products_published": 10,
+        "total_catalog_value": 537.9
+    },
+    "data": {
+        "real_estate_leads": [
+            {
+                "address": "123 Main St, Sheboygan, WI",
+                "arv": 220000,
+                "repairs": 35000,
+                "mao": 119000.0,
+                "assignment_fee_target": 12500.0,
+                "timestamp": "2026-08-15T01:35:11.223135"
+            },
+            {
+                "address": "789 Pine Rd, Milwaukee, WI",
+                "arv": 310000,
+                "repairs": 25000,
+                "mao": 192000.0,
+                "assignment_fee_target": 12500.0,
+                "timestamp": "2026-08-15T01:35:11.223310"
+            },
+            {
+                "address": "402 Lakeview Dr, Manitowoc, WI",
+                "arv": 185000,
+                "repairs": 18000,
+                "mao": 111500.0,
+                "assignment_fee_target": 12500.0,
+                "timestamp": "2026-08-15T01:35:11.223338"
+            },
+            {
+                "address": "910 Commercial St, Green Bay, WI",
+                "arv": 450000,
+                "repairs": 60000,
+                "mao": 255000.0,
+                "assignment_fee_target": 12500.0,
+                "timestamp": "2026-08-15T01:35:11.223414"
+            }
+        ],
+        "affiliate_campaigns": [
+            {
+                "platform": "Digistore24",
+                "product_name": "AI Automation Mastery System",
+                "monetized_url": "https://www.digistore24.com/redir/521482/rebelai/",
+                "social_copy": "\ud83d\udd25 Hot Access: AI Automation Mastery System is live! Get instant access here: https://www.digistore24.com/redir/521482/rebelai/",
+                "timestamp": "2026-08-15T01:35:11.224572"
+            },
+            {
+                "platform": "Digistore24",
+                "product_name": "Gothic & Tattoo Vector Vault",
+                "monetized_url": "https://www.digistore24.com/redir/492011/rebelai/",
+                "social_copy": "\ud83d\udd25 Hot Access: Gothic & Tattoo Vector Vault is live! Get instant access here: https://www.digistore24.com/redir/492011/rebelai/",
+                "timestamp": "2026-08-15T01:35:11.225182"
+            },
+            {
+                "platform": "Digistore24",
+                "product_name": "Crypto & Digital Wealth Accelerator",
+                "monetized_url": "https://www.digistore24.com/redir/310488/rebelai/",
+                "social_copy": "\ud83d\udd25 Hot Access: Crypto & Digital Wealth Accelerator is live! Get instant access here: https://www.digistore24.com/redir/310488/rebelai/",
+                "timestamp": "2026-08-15T01:35:11.225282"
+            },
+            {
+                "platform": "Digistore24",
+                "product_name": "High-Ticket E-Commerce Profits",
+                "monetized_url": "https://www.digistore24.com/redir/104922/rebelai/",
+                "social_copy": "\ud83d\udd25 Hot Access: High-Ticket E-Commerce Profits is live! Get instant access here: https://www.digistore24.com/redir/104922/rebelai/",
+                "timestamp": "2026-08-15T01:35:11.225358"
+            }
+        ],
+        "digital_products": [
+            {
+                "title": "Gothic Vector Stencil & New-School Tattoo Flash Pack",
+                "sku": "REBEL-DIG-151",
+                "category": "Digital Art",
+                "price": 29.99,
+                "checkout_urls": {
+                    "stripe": "https://buy.stripe.com/mock_rebel-dig-151",
+                    "gumroad": "https://gumroad.com/l/rebel-dig-151"
+                },
+                "status": "published_active",
+                "timestamp": "2026-08-15T01:35:11.226701"
+            },
+            {
+                "title": "Automated Wholesale Real Estate Lead & Outreach Suite",
+                "sku": "REBEL-AUT-5557",
+                "category": "Automation",
+                "price": 69.99,
+                "checkout_urls": {
+                    "stripe": "https://buy.stripe.com/mock_rebel-aut-5557",
+                    "gumroad": "https://gumroad.com/l/rebel-aut-5557"
+                },
+                "status": "published_active",
+                "timestamp": "2026-08-15T01:35:11.226775"
+            },
+            {
+                "title": "Termux Mobile Micro-SaaS & Python Script Vault",
+                "sku": "REBEL-SOF-4341",
+                "category": "Software",
+                "price": 49.99,
+                "checkout_urls": {
+                    "stripe": "https://buy.stripe.com/mock_rebel-sof-4341",
+                    "gumroad": "https://gumroad.com/l/rebel-sof-4341"
+                },
+                "status": "published_active",
+                "timestamp": "2026-08-15T01:35:11.226805"
+            },
+            {
+                "title": "High-Power Off-Road E-Bike Sourcing & Wholesale Guide",
+                "sku": "REBEL-E-C-771",
+                "category": "E-Commerce",
+                "price": 19.99,
+                "checkout_urls": {
+                    "stripe": "https://buy.stripe.com/mock_rebel-e-c-771",
+                    "gumroad": "https://gumroad.com/l/rebel-e-c-771"
+                },
+                "status": "published_active",
+                "timestamp": "2026-08-15T01:35:11.226884"
+            },
+            {
+                "title": "Industrial Injection Molding & Wear Engineering Manual",
+                "sku": "REBEL-IND-469",
+                "category": "Industrial",
+                "price": 99.99,
+                "checkout_urls": {
+                    "stripe": "https://buy.stripe.com/mock_rebel-ind-469",
+                    "gumroad": "https://gumroad.com/l/rebel-ind-469"
+                },
+                "status": "published_active",
+                "timestamp": "2026-08-15T01:35:11.226951"
+            },
+            {
+                "title": "Cyberpunk & Dark Aesthetic Tattoo Flash Megapack",
+                "sku": "REBEL-DIG-2042",
+                "category": "Digital Art",
+                "price": 34.99,
+                "checkout_urls": {
+                    "stripe": "https://buy.stripe.com/mock_rebel-dig-2042",
+                    "gumroad": "https://gumroad.com/l/rebel-dig-2042"
+                },
+                "status": "published_active",
+                "timestamp": "2026-08-15T01:35:11.227009"
+            },
+            {
+                "title": "Turnkey Rebel AI Digital Storefront Engine",
+                "sku": "REBEL-SOF-6470",
+                "category": "Software",
+                "price": 149.99,
+                "checkout_urls": {
+                    "stripe": "https://buy.stripe.com/mock_rebel-sof-6470",
+                    "gumroad": "https://gumroad.com/l/rebel-sof-6470"
+                },
+                "status": "published_active",
+                "timestamp": "2026-08-15T01:35:11.227034"
+            },
+            {
+                "title": "Midjourney & DALL-E Dark Art Prompt Engineering Matrix",
+                "sku": "REBEL-AI -9244",
+                "category": "AI Prompts",
+                "price": 14.99,
+                "checkout_urls": {
+                    "stripe": "https://buy.stripe.com/mock_rebel-ai -9244",
+                    "gumroad": "https://gumroad.com/l/rebel-ai -9244"
+                },
+                "status": "published_active",
+                "timestamp": "2026-08-15T01:35:11.227057"
+            },
+            {
+                "title": "Distressed Real Estate Cold Call & SMS Contract Bundle",
+                "sku": "REBEL-REA-7865",
+                "category": "Real Estate",
+                "price": 39.99,
+                "checkout_urls": {
+                    "stripe": "https://buy.stripe.com/mock_rebel-rea-7865",
+                    "gumroad": "https://gumroad.com/l/rebel-rea-7865"
+                },
+                "status": "published_active",
+                "timestamp": "2026-08-15T01:35:11.227079"
+            },
+            {
+                "title": "Print-on-Demand Gothic Streetwear Vector Asset Pack",
+                "sku": "REBEL-DIG-502",
+                "category": "Digital Art",
+                "price": 27.99,
+                "checkout_urls": {
+                    "stripe": "https://buy.stripe.com/mock_rebel-dig-502",
+                    "gumroad": "https://gumroad.com/l/rebel-dig-502"
+                },
+                "status": "published_active",
+                "timestamp": "2026-08-15T01:35:11.227100"
+            }
+        ]
+    }
+}
