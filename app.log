@@ -1,0 +1,69 @@
+nohup: ignoring input
+[2026-08-16 20:06:20 -0500] [28710] [INFO] Starting gunicorn 26.0.0
+[2026-08-16 20:06:20 -0500] [28710] [INFO] Listening at: http://0.0.0.0:5000 (28710)
+[2026-08-16 20:06:20 -0500] [28710] [INFO] Using worker: sync
+[2026-08-16 20:06:20 -0500] [28718] [INFO] Booting worker with pid: 28718
+[2026-08-16 20:06:20 -0500] [28719] [INFO] Booting worker with pid: 28719
+[2026-08-16 20:06:20 -0500] [28720] [INFO] Booting worker with pid: 28720
+[2026-08-16 20:06:20 -0500] [28721] [INFO] Booting worker with pid: 28721
+[2026-08-16 20:06:21 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:08:07 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:28718)
+[2026-08-16 20:08:07 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:28719)
+[2026-08-16 20:08:07 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:28720)
+[2026-08-16 20:08:07 -0500] [28718] [INFO] Worker exiting (pid: 28718)
+[2026-08-16 20:08:07 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:28721)
+[2026-08-16 20:08:07 -0500] [28720] [INFO] Worker exiting (pid: 28720)
+[2026-08-16 20:08:07 -0500] [28721] [INFO] Worker exiting (pid: 28721)
+[2026-08-16 20:08:07 -0500] [28719] [INFO] Worker exiting (pid: 28719)
+[2026-08-16 20:08:07 -0500] [28710] [ERROR] Worker (pid:28718) exited with code 1.
+[2026-08-16 20:08:07 -0500] [29685] [INFO] Booting worker with pid: 29685
+[2026-08-16 20:08:07 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:08:07 -0500] [28710] [ERROR] Worker (pid:28719) was sent SIGKILL! Perhaps out of memory?
+[2026-08-16 20:08:07 -0500] [28710] [ERROR] Worker (pid:28720) exited with code 1.
+[2026-08-16 20:08:07 -0500] [28710] [ERROR] Worker (pid:28721) was sent SIGKILL! Perhaps out of memory?
+[2026-08-16 20:08:07 -0500] [29688] [INFO] Booting worker with pid: 29688
+[2026-08-16 20:08:07 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:08:07 -0500] [29690] [INFO] Booting worker with pid: 29690
+[2026-08-16 20:08:07 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:08:07 -0500] [29693] [INFO] Booting worker with pid: 29693
+[2026-08-16 20:08:07 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:09:25 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:29685)
+[2026-08-16 20:09:25 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:29688)
+[2026-08-16 20:09:25 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:29690)
+[2026-08-16 20:09:25 -0500] [29685] [INFO] Worker exiting (pid: 29685)
+[2026-08-16 20:09:25 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:29693)
+[2026-08-16 20:09:25 -0500] [29693] [INFO] Worker exiting (pid: 29693)
+[2026-08-16 20:09:25 -0500] [29688] [INFO] Worker exiting (pid: 29688)
+[2026-08-16 20:09:25 -0500] [29690] [INFO] Worker exiting (pid: 29690)
+[2026-08-16 20:09:25 -0500] [28710] [ERROR] Worker (pid:29693) exited with code 1.
+[2026-08-16 20:09:25 -0500] [30033] [INFO] Booting worker with pid: 30033
+[2026-08-16 20:09:25 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:09:25 -0500] [28710] [ERROR] Worker (pid:29685) exited with code 1.
+[2026-08-16 20:09:25 -0500] [28710] [ERROR] Worker (pid:29690) was sent SIGKILL! Perhaps out of memory?
+[2026-08-16 20:09:25 -0500] [28710] [ERROR] Worker (pid:29688) was sent SIGKILL! Perhaps out of memory?
+[2026-08-16 20:09:25 -0500] [30036] [INFO] Booting worker with pid: 30036
+[2026-08-16 20:09:25 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:09:26 -0500] [30040] [INFO] Booting worker with pid: 30040
+[2026-08-16 20:09:26 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:09:26 -0500] [30042] [INFO] Booting worker with pid: 30042
+[2026-08-16 20:09:26 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:18:39 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:30033)
+[2026-08-16 20:18:39 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:30036)
+[2026-08-16 20:18:39 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:30040)
+[2026-08-16 20:18:39 -0500] [28710] [CRITICAL] WORKER TIMEOUT (pid:30042)
+[2026-08-16 20:18:39 -0500] [30042] [INFO] Worker exiting (pid: 30042)
+[2026-08-16 20:18:39 -0500] [30036] [INFO] Worker exiting (pid: 30036)
+[2026-08-16 20:18:39 -0500] [30040] [INFO] Worker exiting (pid: 30040)
+[2026-08-16 20:18:39 -0500] [30033] [INFO] Worker exiting (pid: 30033)
+[2026-08-16 20:18:39 -0500] [28710] [ERROR] Worker (pid:30042) exited with code 1.
+[2026-08-16 20:18:39 -0500] [4696] [INFO] Booting worker with pid: 4696
+[2026-08-16 20:18:39 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:18:39 -0500] [28710] [ERROR] Worker (pid:30033) exited with code 1.
+[2026-08-16 20:18:39 -0500] [28710] [ERROR] Worker (pid:30036) was sent SIGKILL! Perhaps out of memory?
+[2026-08-16 20:18:39 -0500] [28710] [ERROR] Worker (pid:30040) was sent SIGKILL! Perhaps out of memory?
+[2026-08-16 20:18:39 -0500] [4702] [INFO] Booting worker with pid: 4702
+[2026-08-16 20:18:39 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:18:39 -0500] [4704] [INFO] Booting worker with pid: 4704
+[2026-08-16 20:18:39 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
+[2026-08-16 20:18:39 -0500] [4706] [INFO] Booting worker with pid: 4706
+[2026-08-16 20:18:39 -0500] [28710] [INFO] Control socket listening at /data/data/com.termux/files/home/.gunicorn/gunicorn.ctl
