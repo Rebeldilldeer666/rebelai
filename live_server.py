@@ -6,7 +6,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# Real-time metrics storage (in-memory persistent tracking state)
+# Real-time metrics storage
 METRICS = {
     "total_visitors": 0,
     "total_revenue": 0.00,
@@ -18,7 +18,7 @@ METRICS = {
 def health_check():
     return jsonify({
         "status": "ONLINE",
-        "message": "Rebel AI Live Revenue Engine is active and listening.",
+        "message": "Rebel AI Live Revenue Engine is active.",
         "metrics": METRICS
     }), 200
 
@@ -30,7 +30,6 @@ def track_visit():
 @app.route("/stripe-webhook", methods=["POST"])
 def stripe_webhook():
     payload = request.get_json() or {}
-    # Process live incoming payment events from Stripe
     amount = payload.get("data", {}).get("object", {}).get("amount_received", 0) / 100.0
     if amount > 0:
         METRICS["total_revenue"] += amount
@@ -43,5 +42,4 @@ def get_metrics():
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 5000))
-    print(f"[*] Starting Live Production Server on port {port}...")
     app.run(host="0.0.0.0", port=port)
