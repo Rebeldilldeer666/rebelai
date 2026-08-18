@@ -6,7 +6,6 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# Real-time metrics storage
 METRICS = {
     "total_visitors": 0,
     "total_revenue": 0.00,
@@ -41,5 +40,4 @@ def get_metrics():
     return jsonify(METRICS), 200
 
 if __name__ == "__main__":
-    port = int(os.getenv("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
