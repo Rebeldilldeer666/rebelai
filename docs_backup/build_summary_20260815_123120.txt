@@ -1,0 +1,121 @@
+=== REBEL AI SYSTEM BACKUP & DOCUMENTATION ===
+Timestamp: Sat Aug 15 12:31:20 CDT 2026
+Project Path: /data/data/com.termux/files/home/rebelai
+Production Domain: https://rebelai-storefront.vercel.app
+
+--- Active Engines & Files ---
+total 37217
+drwx------. 17 u0_a571 u0_a571     8192 Aug 15 12:31 .
+drwx------. 20 u0_a571 u0_a571     3452 Aug 15 12:28 ..
+-rw-------.  1 u0_a571 u0_a571      318 Aug  9 14:32 .env
+-rw-------.  1 u0_a571 u0_a571      215 Aug  8 22:28 .env.example
+-rw-------.  1 u0_a571 u0_a571     1175 Aug 14 16:56 .env.local
+-rw-------.  1 u0_a571 u0_a571      107 Aug 14 18:15 .env.production
+-rw-------.  1 u0_a571 u0_a571      438 Aug  8 22:28 .eslintrc.cjs
+drwx------.  7 u0_a571 u0_a571     3452 Aug 15 12:28 .git
+drwx------.  3 u0_a571 u0_a571     3452 Aug  8 22:28 .github
+-rw-------.  1 u0_a571 u0_a571      433 Aug  9 15:25 .gitignore
+-rw-------.  1 u0_a571 u0_a571       22 Aug  9 09:51 .npmrc
+-rw-------.  1 u0_a571 u0_a571      179 Aug  8 22:28 .prettierrc
+drwx------.  2 u0_a571 u0_a571     3452 Aug 15 12:29 .vercel
+-rw-------.  1 u0_a571 u0_a571        0 Aug  9 13:16 Automated
+-rw-------.  1 u0_a571 u0_a571        0 Aug  9 13:16 Daily
+-rw-------.  1 u0_a571 u0_a571       65 Aug  8 22:28 Docs
+-rw-------.  1 u0_a571 u0_a571        0 Aug  9 13:16 Email
+-rw-------.  1 u0_a571 u0_a571        0 Aug 15 02:02 Fetch
+-rw-------.  1 u0_a571 u0_a571       42 Aug  8 22:28 Issues
+-rw-------.  1 u0_a571 u0_a571        0 Aug  9 13:16 Partner
+-rw-------.  1 u0_a571 u0_a571    10124 Aug  8 22:28 README.md
+-rw-------.  1 u0_a571 u0_a571      493 Aug  9 14:08 Termux_Automation_Vault_Vault_Package.zip
+-rw-------.  1 u0_a571 u0_a571        0 Aug 14 23:35 The
+-rw-------.  1 u0_a571 u0_a571        0 Aug 15 02:02 Use
+-rw-------.  1 u0_a571 u0_a571        0 Aug  9 13:16 Website
+drwx------.  2 u0_a571 u0_a571     3452 Aug  9 15:05 __pycache__
+-rw-------.  1 u0_a571 u0_a571     3084 Aug 14 18:32 analytics.py
+drwx------.  3 u0_a571 u0_a571     3452 Aug  8 22:28 app
+-rw-------.  1 u0_a571 u0_a571      910 Aug 15 03:17 app.py
+-rw-------.  1 u0_a571 u0_a571     3305 Aug  9 16:01 auto_launch.py
+-rw-------.  1 u0_a571 u0_a571      746 Aug 15 00:01 ayrshare_poster.py
+-rw-------.  1 u0_a571 u0_a571     1753 Aug 14 16:03 broadcast.py
+-rw-------.  1 u0_a571 u0_a571     3766 Aug 15 02:59 build_catalog.py
+-rw-------.  1 u0_a571 u0_a571     3678 Aug 15 03:52 build_engine.py
+-rw-------.  1 u0_a571 u0_a571     4030 Aug 14 16:03 build_store.py
+drwx------.  3 u0_a571 u0_a571     3452 Aug  9 14:08 build_termux_automation_vault
+-rwx------.  1 u0_a571 u0_a571 37404344 Aug 14 16:15 cloudflared
+-rw-------.  1 u0_a571 u0_a571      238 Aug 14 15:59 config.env
+-rw-------.  1 u0_a571 u0_a571     1848 Aug 15 03:23 content_engine.py
+-rw-------.  1 u0_a571 u0_a571    17367 Aug 15 01:35 daemon_execution.log
+-rwx------.  1 u0_a571 u0_a571      620 Aug 14 17:01 daemon_runner.sh
+-rwx------.  1 u0_a571 u0_a571       32 Aug 14 15:55 dash
+-rw-------.  1 u0_a571 u0_a571     3436 Aug 14 15:55 dashboard.py
+-rw-------.  1 u0_a571 u0_a571     1995 Aug  9 14:12 delivery_server.py
+-rw-------.  1 u0_a571 u0_a571    75445 Aug 14 16:03 digistore_catalog.json
+-rw-------.  1 u0_a571 u0_a571     1719 Aug 15 11:32 disruptor.py
+drwx------.  3 u0_a571 u0_a571     3452 Aug 14 11:19 dist
+drwx------.  2 u0_a571 u0_a571     3452 Aug 15 12:31 docs_backup
+-rw-------.  1 u0_a571 u0_a571      257 Aug 15 10:34 engine.log
+-rw-------.  1 u0_a571 u0_a571     1819 Aug 15 10:46 engine.py
+drwx------.  3 u0_a571 u0_a571     3452 Aug 15 12:31 faceless-automation
+-rw-------.  1 u0_a571 u0_a571     1143 Aug  9 12:26 fix_config.py
+-rw-------.  1 u0_a571 u0_a571     5754 Aug  9 12:13 fix_entry_and_deploy.py
+-rw-------.  1 u0_a571 u0_a571      589 Aug  9 12:04 fix_links.py
+-rw-------.  1 u0_a571 u0_a571     2154 Aug  9 14:10 generate_lead_magnets.py
+-rw-------.  1 u0_a571 u0_a571      787 Aug 15 09:43 index.html
+-rw-------.  1 u0_a571 u0_a571     2183 Aug  9 14:23 integrate_rebelai.py
+drwx------.  2 u0_a571 u0_a571     3452 Aug  9 14:10 lead_magnets_out
+-rw-------.  1 u0_a571 u0_a571     3970 Aug 14 11:48 main.p
+-rw-------.  1 u0_a571 u0_a571    13701 Aug 14 16:05 main.py
+-rw-------.  1 u0_a571 u0_a571     1184 Aug  9 14:13 marketplace_bulk_import.csv
+-rw-------.  1 u0_a571 u0_a571     1567 Aug 15 10:18 master_engine.py
+-rw-------.  1 u0_a571 u0_a571     8651 Aug 15 01:35 master_revenue_output.json
+-rw-------.  1 u0_a571 u0_a571      108 Aug 14 16:53 microfrontends.json
+-rw-------.  1 u0_a571 u0_a571     1718 Aug  8 22:28 next.config.js
+drwx------. 69 u0_a571 u0_a571    24576 Aug 15 10:52 node_modules
+-rw-------.  1 u0_a571 u0_a571     5922 Aug 15 12:31 output.log
+-rw-------.  1 u0_a571 u0_a571    75952 Aug 15 11:20 package-lock.json
+-rw-------.  1 u0_a571 u0_a571      621 Aug 15 10:52 package.json
+-rw-------.  1 u0_a571 u0_a571     1595 Aug  9 14:08 package_builder.py
+-rw-------.  1 u0_a571 u0_a571     1767 Aug  9 14:13 payhip_gumroad_exporter.py
+-rw-------.  1 u0_a571 u0_a571       72 Aug 14 16:57 postcss.config.cjs
+-rw-------.  1 u0_a571 u0_a571       70 Aug 14 16:57 postcss.config.js
+-rw-------.  1 u0_a571 u0_a571      219 Aug 14 12:01 processed_output.json
+-rw-------.  1 u0_a571 u0_a571    38548 Aug 15 02:59 products.json
+-rw-------.  1 u0_a571 u0_a571     1373 Aug 14 17:01 promo_generator.py
+drwx------.  2 u0_a571 u0_a571     3452 Aug 14 18:29 public
+-rw-------.  1 u0_a571 u0_a571    14023 Aug  9 15:04 rebelai_master_engine.py
+-rw-------.  1 u0_a571 u0_a571    16769 Aug 15 01:35 revenue_engine.log
+-rw-------.  1 u0_a571 u0_a571       68 Aug 15 09:39 revenue_ledger.json
+-rw-------.  1 u0_a571 u0_a571     2162 Aug 15 09:38 revenue_tracker.py
+-rwx------.  1 u0_a571 u0_a571      519 Aug 14 15:59 run.sh
+-rw-------.  1 u0_a571 u0_a571    10513 Aug  9 13:58 run_auto.py
+-rw-------.  1 u0_a571 u0_a571    11509 Aug  9 14:11 run_auto_hyperdrive.py
+-rw-------.  1 u0_a571 u0_a571     1099 Aug  9 11:00 server.js
+-rw-------.  1 u0_a571 u0_a571      830 Aug 14 16:03 setup_415_catalog.py
+-rw-------.  1 u0_a571 u0_a571     1571 Aug  9 14:12 social_auto_poster.py
+drwx------.  2 u0_a571 u0_a571     3452 Aug  9 00:06 src
+-rwx------.  1 u0_a571 u0_a571      684 Aug 14 16:41 start_tunnel.sh
+-rwx------.  1 u0_a571 u0_a571      528 Aug 14 18:29 sync_and_deploy.sh
+-rw-------.  1 u0_a571 u0_a571      908 Aug  8 22:28 tailwind.config.js
+-rw-------.  1 u0_a571 u0_a571     1789 Aug 14 17:05 tiktok_engine.py
+drwx------.  2 u0_a571 u0_a571     3452 Aug 14 17:06 tiktok_posts
+-rw-------.  1 u0_a571 u0_a571      527 Aug  8 22:28 tsconfig.json
+-rw-------.  1 u0_a571 u0_a571      213 Aug  8 22:28 tsconfig.node.json
+-rw-------.  1 u0_a571 u0_a571     1487 Aug 14 16:03 upgrade_main.py
+drwx------.  2 u0_a571 u0_a571     3452 Aug  9 14:29 vault_packages
+-rw-------.  1 u0_a571 u0_a571      179 Aug 15 03:18 vercel.json
+-rw-------.  1 u0_a571 u0_a571      133 Aug  9 12:26 vite.config.ts
+-rw-------.  1 u0_a571 u0_a571      183 Aug 14 16:07 web_server.log
+
+--- Git Status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	disruptor.py
+	docs_backup/
+	faceless-automation/fix_vite.sh
+	faceless-automation/index.js
+	faceless-automation/persist_and_log.sh
+
+nothing added to commit but untracked files present (use "git add" to track)
