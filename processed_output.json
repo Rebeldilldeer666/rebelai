@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "item": "Widget A",
+        "price": 19.99,
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "item": "Widget B",
+        "price": 45.0,
+        "status": "active"
+    }
+]

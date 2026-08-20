@@ -2,6 +2,7 @@
   "version": 2,
   "builds": [
     {
+<<<<<<< HEAD
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": { "distDir": "dist" }
@@ -12,3 +13,16 @@
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
+=======
+      "src": "live_server.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "live_server.py"
+    }
+  ]
+}
+>>>>>>> f42ebd781c305aedccf66658052852860deda36d

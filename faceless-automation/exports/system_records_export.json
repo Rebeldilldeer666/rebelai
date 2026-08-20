@@ -1,0 +1,20 @@
+{
+  "local_directories": [
+    "revenue_ledger",
+    "revenue_ledger/webhooks",
+    "revenue_ledger/platforms",
+    "revenue_ledger/live_stream",
+    "production_data"
+  ],
+  "known_repositories": [
+    "https://github.com/Rebeldilldeer666/rebelai.git"
+  ],
+  "target_channels": [
+    "Stripe",
+    "Gumroad",
+    "Digistore24",
+    "TikTok",
+    "Instagram",
+    "YouTube"
+  ]
+}

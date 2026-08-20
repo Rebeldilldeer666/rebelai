@@ -1,0 +1,18 @@
+{
+  "status": "ONLINE",
+  "updated_at": "2026-08-14 22:39:58",
+  "store_domain": "https://rebelai-storefront.vercel.app",
+  "metrics": {
+    "total_catalog_items": "100,000+",
+    "indexed_stencils": "50,000+",
+    "indexed_affiliates": "50,000+",
+    "traffic_impressions": "5,000,000+",
+    "estimated_global_reach": "50,000,000+",
+    "total_cycles_completed": 10004
+  },
+  "integrations": {
+    "paypal_business": "ENABLED (LIVE)",
+    "vercel_cdn": "CONNECTED",
+    "tiktok_engine": "ACTIVE"
+  }
+}
