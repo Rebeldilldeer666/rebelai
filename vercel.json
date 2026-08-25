@@ -1,4 +1,4 @@
-
+{
   "version": 2,
   "builds": [
     {
@@ -16,5 +16,6 @@
     { "src": "/api/(.*)", "dest": "live_server.py" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
+}
 
 
