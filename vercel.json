@@ -1,21 +1,8 @@
+
+
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "live_server.py",
-      "use": "@vercel/python"
-    },
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
-    }
-  ],
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/api/(.*)", "dest": "live_server.py" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/live_server.py" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
-
-
